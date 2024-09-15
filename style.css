@@ -391,6 +391,21 @@
 }
 
 
+.cate_hover{
+   display: none;
+   position: absolute;
+   background-color: white;
+   padding:20px;
+
+}
+
+.menu_select_product:hover +#cateHover,
+#cateHover:hover{
+    display:block;
+}
+
+
+
 
 
 
