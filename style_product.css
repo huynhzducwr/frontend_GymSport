@@ -245,16 +245,8 @@
 }
 .container_product{
     display: flex;
+ 
 }
-
-
-
-
-
-
-
-
-
 
 .product1 {
     position: relative; /* Đặt thẻ cha ở vị trí tương đối để thẻ con có thể định vị theo nó */
@@ -476,4 +468,163 @@
     z-index:1000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
+.title_product{
+        padding-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    height:auto;
+
+}
+
+
+.container_product1{
+    display:flex;
+    width:70%;
+    
+    
+}
+
+.nav_category{
+    width:17%;
+
+}
+
+
+.product1{
+    margin-top: 10px;
+    width: 360px;
+    height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung bên trong */
+    padding: 10px; /* Tạo khoảng cách giữa phần tử và biên của thẻ */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước của thẻ */
+}
+
+
+
+.edt_product1 {
+    width:80%;
+    height: auto;
+    display: block;
+ }
+
+ .name_pro1{
+    font-size: 15px;
+}
+.name_cate1{
+    color:#686666;
+    font-size: 14px;
+}
+.name_color1{
+    color:#686666;
+    font-size: 14px;
+}
+.price1{
+    font-weight: 400;
+}
+
+.sort_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .product_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .size_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .listt_product{
+    list-style: none;
+    display:none;
+  }
+  
+  .listt_size{
+    list-style: none;
+    display:none;
+  }
+  .listt{
+    list-style: none;
+    display:none;
+  
+  }
+  
+  .container_product11{
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .edt_radio {
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .list_{
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+  
+  .sort_list:hover{
+    cursor: pointer;
+  }
+  .product_list{
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  .size_list{
+    cursor:pointer;
+    margin-bottom:15px;
+  }
+
+
+  .type_box{
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #BCBCBC;
+    padding:7px;
+    color:#686666;
+    font-size: 14px;
+    font-weight: 350;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
