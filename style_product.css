@@ -483,29 +483,30 @@
 
 .container_product1{
     display:flex;
-    width:70%;
-    
-    
+    width:80%;
+    flex-wrap: wrap;
 }
 
-.nav_category{
-    width:17%;
-
+.nav_category {
+    position: sticky;
+    top: 0; /* Giữ cố định khi cuộn từ vị trí đỉnh của trang */
+    align-self: flex-start; /* Đảm bảo nó luôn dính vào đầu khi cuộn */
+    height: 100vh; /* Chiều cao toàn màn hình */
+    overflow-y: auto; /* Cuộn nếu nội dung quá dài */
 }
 
 
-.product1{
-    margin-top: 10px;
-    width: 360px;
-    height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung bên trong */
-    padding: 10px; /* Tạo khoảng cách giữa phần tử và biên của thẻ */
-    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước của thẻ */
+.product1 {
+    width: 25%; /* Đảm bảo 4 sản phẩm trong 1 hàng, mỗi cái chiếm khoảng 23% không gian */
+    margin-bottom: 20px; /* Khoảng cách dưới giữa các hàng */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước phần tử */
+    text-align: center; /* Canh giữa nội dung bên trong sản phẩm */
 }
 
 
 
 .edt_product1 {
-    width:80%;
+    width:105%;
     height: auto;
     display: block;
  }
@@ -546,12 +547,90 @@
     border-top: 1px solid #BCBCBC;
     padding-top: 20px;
   }
+  .feature_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .fit_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .activity_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .collection_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .discount_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .color_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
+  .price_list{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #BCBCBC;
+    padding-top: 20px;
+  }
   .listt_product{
     list-style: none;
     display:none;
   }
   
   .listt_size{
+    list-style: none;
+    display:none;
+  }
+  .listt_feature{
+    list-style: none;
+    display:none;
+  }
+  .listt_fit{
+    list-style: none;
+    display:none;
+  }
+  .listt_activity{
+    list-style: none;
+    display:none;
+  }
+  .listt_collection{
+    list-style: none;
+    display:none;
+  }
+
+  .listt_color{
+    list-style: none;
+    display:none;
+  }
+  .listt_discount{
+    list-style: none;
+    display:none;
+  }
+  .listt_price{
     list-style: none;
     display:none;
   }
