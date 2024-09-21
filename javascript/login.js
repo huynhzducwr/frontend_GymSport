@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Switch to Login
         loginForm.classList.add("active");
         signupForm.classList.remove("active");
-        formSlider.classList.remove("active"); // Ẩn thanh trượt
+    
 
         // Update button styles
         loginBtn.classList.add("active");
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Switch to Sign Up
         signupForm.classList.add("active");
         loginForm.classList.remove("active");
-        formSlider.classList.add("active"); // Hiện thanh trượt
+        
 
         // Update button styles
         signupBtn.classList.add("active");
