@@ -479,6 +479,7 @@
 
 
 .Bag_order{
+    display:none;
     width:30%;
    float:right;
     align-items: center;
@@ -528,8 +529,18 @@
     margin-top: 20px;
 }
 
-
-.zz{
-    margin-left: 40px;
+.Your_bag{
+    display:flex;
+    margin-left: 200px;
 }
+.Your_bag i {
+    margin-left: auto; /* Đẩy biểu tượng sang bên phải */
+    padding-right:20px;
+    
+}
+
+
+
+
+
 
