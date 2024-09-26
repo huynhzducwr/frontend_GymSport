@@ -24,10 +24,6 @@ shopIcon.addEventListener('click', function() {
 });
 closeIcon.addEventListener('mouseenter',function(){
     closeIcon.style.cursor ='pointer';
-});
-closeIcon.addEventListener('click',function(){
-    bag.style.display = 'none';
-    overlay.style.display='none';
 })
 
 overlay.addEventListener('click',function(){
